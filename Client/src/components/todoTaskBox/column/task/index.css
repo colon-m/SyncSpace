@@ -1,0 +1,59 @@
+.task {
+    position: relative;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #ccc;
+    outline: none;
+
+}
+.task:hover {
+    background-color: rgba(0,119,256,0.014);
+}
+.task-name {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+.task-name::before {
+    content: '●';
+    color: #1677ff;
+    margin-right: 10PX;
+}
+.task .task-details {
+    background-color: #d5cece;
+    padding: 2px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: rgb(109, 109, 109);
+    font-weight: 300;
+    word-wrap: break-word;
+    margin-top: 10px;
+    line-height: 1.1rem;
+}
+.bottom{
+    display: flex;
+    
+    margin-top: 6px;
+}
+.bottom .file{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.remove-bar {
+    flex: 1;
+    text-align: right;
+    
+}
+.remove-bar .anticon-delete{
+    cursor: pointer;
+}
+.task .avatar {
+    position: absolute;
+    top: -14px;
+    right: -25px;
+}

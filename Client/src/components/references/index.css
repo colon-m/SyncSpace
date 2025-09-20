@@ -1,0 +1,81 @@
+.references{
+    padding: 4px 6px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    cursor: default;
+}
+.references .ref-header {
+    display: flex;
+    align-items: center;
+    justify-content: normal;
+}
+.references .ref-header .ref-title {
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 6px;
+}
+.references .ref-header .upload-area{
+    flex: 1;
+    display: flex;
+    margin-right: 4px;
+    justify-content: flex-end;
+}
+.references .ref-header .upload-area .upload-btn {
+    width: fit-content;
+    position: relative;
+}
+.references .ref-header .upload-area .upload-btn .upload-icon{
+    font-size: 1.4rem;
+    line-height: 1.2rem;
+}
+.references .ref-header .upload-area .file-input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 0;
+
+}
+.references .ref-body .upload-area .upload-empty {
+    cursor: pointer;
+}
+
+.references .ref-body .ant-empty {
+    margin: 0;
+}
+.references .ref-body .files-upload {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: flex-start;
+}
+.references .ref-body .files-upload .item-upload {
+    position: relative;
+}
+
+.references .ref-body .files-upload .item-upload .file-close{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    top: -5px;
+    right: 6px;
+    font-size: 0px;
+    cursor:pointer;
+}
+.references .ref-body .files-upload .item-upload:hover>.file-close{
+    font-size: 10px;
+}
+.references .ref-body .files-upload .file-icon{
+    margin-right: 10px;
+    
+}
+.references .ref-body .file-icon{
+    width: 20px;
+}

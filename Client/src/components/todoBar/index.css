@@ -1,0 +1,50 @@
+.event-bar {
+    overflow-y: auto;
+    height: calc(100vh-110px);
+}
+.event-bar-title {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+.event-item{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    max-width: 180px;
+    font-weight: 400;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+    background-color: #eaf1f0;
+}
+.event-item:hover{
+    background-color: #1677ff;
+    color: white;;
+}
+
+.over-hide {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.active {
+    background-color: #1677ff;
+    color: white;
+}
+.add-button {
+    font-size: 2rem;
+    line-height: 2rem;
+    width: 180px;
+    font-weight: 400;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+    background-color: #eaf1f0;
+    border: none
+}

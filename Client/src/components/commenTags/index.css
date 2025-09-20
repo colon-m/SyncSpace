@@ -1,0 +1,10 @@
+.tags-container{
+    margin-left: 15px;
+}
+.tag:hover {
+    cursor: pointer;
+}
+.tag.active {
+    background-color: #1677ff;
+    color: white;
+}

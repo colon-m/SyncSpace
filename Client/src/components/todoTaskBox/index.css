@@ -1,0 +1,7 @@
+.task-box-contariner{
+ flex: 1;
+}
+.task-box-contariner .column-box {
+    display: flex;
+    justify-content: space-evenly;
+}

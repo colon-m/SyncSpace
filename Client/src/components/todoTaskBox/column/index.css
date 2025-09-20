@@ -1,0 +1,14 @@
+.column{
+    width: 12rem;
+    height: fit-content;
+    background-color: #f6f9fa;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+
+}
+.column .title{
+    font-style: italic;
+    font-size: 1.2rem;
+    text-align: center;
+}
